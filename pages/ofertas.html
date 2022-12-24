@@ -4,57 +4,182 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" 
+    rel="stylesheet"
+     integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+     crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
+    <script src="https://kit.fontawesome.com/a62acd7bc4.js" crossorigin="anonymous"></script>
     <title>Ofertas</title>
 </head>
 <body>
-    <header>
-        <nav>
-            <div class="div-nav">
-                <h1>TecnoShop</h1>
-                <a href="../index.html">
-                    <img class="img-logo" src="../img/Mesa de trabajo 1.png" alt="Logo TecnoShop">
+    <header class="navbar navbar-expand-lg">
+        <div class="container">
+          <a class="navbar-brand" href="../index.html"><img src="../img/logo-tecnoshop.png" alt="" class="img-logo"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <nav class="collapse navbar-collapse justify-content-start" id="navbarNavDropdown">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle active" href="../pages/componentes.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Componentes
                 </a>
-                <div class="div-nav-select">
-                    <ul class="ul-header">
-                        <li><a href="../pages/componentes.html">Componentes</a></li>
-                        <li><a href="../pages/atpc.html">Arma tu PC</a></li>
-                        <li><a href="../pages/ofertas.html">Ofertas</a></li>
-                        <li><a href="../pages/contacto.html">Contacto</a></li>
-                        <li><a href="../pages/ayuda.html">Ayuda</a></li>
-                    </ul>
-                    <form action="">
-                        <input class="input-search" type="search" placeholder="Buscar">
-                    </form>
-                </div>
-            </div>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="../pages/procesadores.html">Procesadores</a></li>
+                  <li><a class="dropdown-item" href="../pages/Placas de video.html">Placas de video</a></li>
+                  <li><a class="dropdown-item" href="../pages/gabinetes.html">Gabinetes</a></li>
+                </ul>
+              </li>
+             <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../pages/atpc.html">Arma tu PC</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="../pages/ofertas.html">Ofertas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="../pages/contacto.html">Contacto</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="../pages/ayuda.html">Ayuda</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                <button class="btn btn-outline-success justify-content-end" type="submit"><i class="fa-solid fa-magnifying-glass "></i></button>
+              </form>
         </nav>
+        </div>
     </header>
     <main>
-        <h4>Ofertas</h4>
-        <section>
-            <img src="../img/1x/4.png" alt="">
-            <img src="../img/1x/4.png" alt="">
-        </section>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="card h-100">
+                <img src="../img/Intel_Core_i9_13900k.png" class="card-img-top" alt="intel-9-13900k">
+                <div class="card-body">
+                  <h2 class="card-title">Procesador Intel i9 13900k</h2>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+                <div class="card-footer">
+                  <H3 class="text-muted">$50.000</h3>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="../img/amd-ryzen-5700.jfif" class="card-img" alt="ryzen-5700">
+                <div class="card-body">
+                  <h2 class="card-title">AMD Ryzen 5700</h2>
+                  <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                </div>
+                <div class="card-footer">
+                  <h3 class="text-muted">$38.000</h3>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="../img/nvidia-3080.jpg" class="card-img-top" alt="nvidia-3080">
+                <div class="card-body">
+                  <h2 class="card-title">Nvidia 3080 Asus</h2>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                </div>
+                <div class="card-footer">
+                  <h3 class="text-muted">$150.000</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="card h-100">
+                <img src="../img/gabinete-corsair.jpg" class="card-img-top" alt="gabinete-corsair">
+                <div class="card-body">
+                  <h2 class="card-title">Gabinete Corsair 4000D</h2>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+                <div class="card-footer">
+                  <H3 class="text-muted">$15.000</h3>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="../img/gabinete-mastebox.jpg" class="card-img" alt="gabinete-mastebox">
+                <div class="card-body">
+                  <h2 class="card-title">Gabinete Cooler Master Mastebox</h2>
+                  <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                </div>
+                <div class="card-footer">
+                  <h3 class="text-muted">$12.000</h3>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="../img/6900xt.jfif" class="card-img-top" alt="amd-6900">
+                <div class="card-body">
+                  <h2 class="card-title">AMD 6900XT</h2>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                </div>
+                <div class="card-footer">
+                  <h3 class="text-muted">$130.000</h3>
+                </div>
+              </div>
+            </div>
+          </div>
     </main>
 </body>
-<footer class="footer">
-    <section class="secciones">
-        <ul class="ul-footer">
-            <p>
-                <strong>Secciones</strong>
-            </p>
-            <li class="seccionesfooter">
-                <a href="../index.html">Inicio</a>
-                <a href="../pages/componentes.html">Componentes</a>
-                <a href="../pages/atpc.html">Arma tu PC</a>
-                <a href="../pages/ofertas.html">Ofertas</a>
-                <a href="../pages/contacto.html">Contacto</a>
-                <a href="../pages/ayuda.html">Ayuda</a>
-            </li>
-        </ul>
+<footer class="bg-footer">
 
-    </section>
+    <div class="conteiner">
+        <div class="d-flex justify-content-center">
+            <section class="secciones">
+                <ul class="ul-footer">
+                    <p>
+                        <h3 class="d-flex justify-content-center ">Secciones</h3>
+                    </p>
+                    <li class="seccionesfooter">
+                        <a href="../index.html">Inicio</a>
+                        <a href="../pages/componentes.html">Componentes</a>
+                        <a href="../pages/atpc.html">Arma tu PC</a>
+                        <a href="../pages/ofertas.html">Ofertas</a>
+                        <a href="../pages/contacto.html">Contacto</a>
+                        <a href="../pages/ayuda.html">Ayuda</a>
+                    </li>
+                </ul>
+        
+            </section>
+
+        </div>
+        <div class="row">
+            <div class="d-flex flex-column gap-3">
+                <img src="../img/logo-tecnoshop.png" alt="Logo TecnoShop" class="w-50">
+                
+                <span> TecnoShop © 2022, Todos los derechos reservados</span>
+
+                <span>tecnoshop@gmail.com</span>
+
+            </div>
+            <div>
+                <h2 class="h2-footer">Redes Sociales</h2>
+                <div class="d-flex justify-content-center gap-5 fs-2">
+                    <i class="bi bi-instagram"></i>
+                    <i class="bi bi-facebook"></i>
+                    <i class="bi bi-twitter"></i>
+
+                </div>
+
+            </div>
+        
+        </div>
+    </div>
 
 </footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" 
+integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+crossorigin="anonymous"></script>
 </html>
