@@ -2,14 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
 }
-<style type="text/css"> 
-a {color:#FF1493;} 
-a:visited {color:#FF34B3;} 
-a:active {color:#FFB6C1;} 
-a:hover {color:#FF1493;} 
-</style>
+
 /*---Header---*/
 .img-logo{
     width: 250px;
@@ -72,6 +66,7 @@ main{
     background-color:#ED6A3B;
     width: auto;
     height: auto;
+    min-width: 375px;
 }
 
 
@@ -131,6 +126,193 @@ div.componetes.row{
     height: auto;
     padding: 20px;
 }
+
+
+/*--- Procesadores---*/
+
+main.d{
+    text-align: center;
+    justify-self: center;
+    
+}
+
+h2.procesador{
+    text-align: center;
+}
+
+/*--- Contacto ---*/
+
+.main-contact{
+    height: 100%;
+    width: 100%;
+    font-family: 'Noto Sans', sans-serif;
+    background-color: #ED6A3B; 
+    display: inline
+  }
+  
+  
+  .contact_form{  
+    width: 460px; 
+    height: auto;
+    margin: 80px auto;
+    border-radius: 10px;  
+    padding-top: 30px;
+    padding-bottom: 20px;  
+    background-color: #fbfbfb; 
+    padding-left: 30px; 
+  }
+  
+  
+  .input-contact{
+    background-color: #fbfbfb; 
+    width: 408px; 
+    height: 40px; 
+    border-radius: 5px;  
+    border-style: solid; 
+    border-width: 1px; 
+    border-color:#ED6A3B; 
+    margin-top: 10px;  
+    padding-left: 10px;
+    margin-bottom: 20px; 
+  }
+  
+  
+  textarea{
+    background-color: #fbfbfb; 
+    width: 405px; 
+    height: 150px; 
+    border-radius: 5px;  
+    border-style: solid; 
+    border-width: 1px; 
+    border-color: #ED6A3B; 
+    margin-top: 10px;  
+    padding-left: 10px;
+    margin-bottom: 20px; 
+    padding-top: 15px; 
+  }
+  
+  
+  label{
+    display: block; 
+    float: center;  
+  }
+  
+  
+  .button-contact{
+    height: 45px; 
+    padding-left: 5px;
+    padding-right: 5px;   
+    margin-bottom: 20px; 
+    margin-top: 10px;   
+    text-transform: uppercase;
+    background-color: #ED6A3B; 
+    border-color: #ED6A3B; 
+    border-style: solid; 
+    border-radius: 10px;  
+    width: 420px;   
+    cursor: pointer;
+  }
+  
+  
+  button p{
+    color: #fff;
+  }
+
+
+  button p:hover {
+    color: #fff;
+  }
+  
+  span{
+    color: #ED6A3B; 
+  }
+  
+  
+  .aviso{
+    font-size: 13px;  
+    color: #0e0e0e;  
+  }
+  
+  
+ .h1-contact{
+    font-size: 39px;  
+    text-align: letf; 
+    padding-bottom: 20px; 
+    color: #ED6A3B;
+  }
+  
+  
+  .h3-contact{
+    font-size: 16px; 
+    padding-bottom: 30px;
+    color: #0e0e0e;   
+  }
+  
+  
+  p{
+    font-size: 14px; 
+    color: #0e0e0e; 
+  }
+  
+  
+  ::-webkit-input-placeholder {
+   color: #a8a8a8;
+  }
+  
+  
+  ::-webkit-textarea-placeholder {
+   color: #a8a8a8;
+  }
+  
+  
+  .formulario input:focus{
+    outline:0;
+    border: 1px solid #0000006c;
+  }
+  
+  
+  .formulario textarea:focus{
+    outline:0;
+    border: 1px solid #0000006c;
+  }
+
+/*--- Ayuda-soporte---*/
+
+.titu-ayuda{
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    font-style: oblique;
+    background-color:white
+}
+
+.pregunta-uno{ 
+    margin: auto;
+    padding: 15px;
+    text-align: center;
+    background-color: #fbeed3;
+}
+
+.ayuda-dos{
+    margin:auto;
+    padding:15px;
+    text-align: center;
+    background-color: #fbeed3;
+
+}
+
+
+.pregunta-tres.container{
+    margin: auto;
+    padding: 15px;
+    text-align: center;
+    background-color: #fbeed3;
+
+}
+
+
+
+
 
 /*--- Footer---*/
 
