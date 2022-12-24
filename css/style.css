@@ -2,8 +2,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
-
+<style type="text/css"> 
+a {color:#FF1493;} 
+a:visited {color:#FF34B3;} 
+a:active {color:#FFB6C1;} 
+a:hover {color:#FF1493;} 
+</style>
 /*---Header---*/
 .img-logo{
     width: 250px;
